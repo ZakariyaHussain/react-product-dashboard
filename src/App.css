@@ -1,0 +1,126 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+/* Dashboard Wrapper */
+.product-dashboard {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.product-dashboard h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #edf2f7;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+/* Form Controls Layout */
+.filter-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-group label, 
+.product-dashboard > div {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+/* Inputs & Select Styling */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+input:focus, select:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+/* Reset Button */
+button {
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #c53030;
+}
+
+/* Counter Badge */
+.product-count {
+  background-color: #ebf8ff;
+  color: #2b6cb0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 20px 0 10px 0;
+}
+
+/* Product List Cards */
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7fafc;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: transform 0.15s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-2px);
+  border-color: #cbd5e0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.product-price {
+  color: #2f855a;
+  font-weight: 600;
+}
