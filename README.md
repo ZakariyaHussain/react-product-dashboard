@@ -3,7 +3,7 @@
 I recently completed a small independent React project — Product Dashboard. After completing my 14 Days of React Practice Challenge, I wanted to build something on my own to practice the React concepts I had reviewed.
 
 ## 🚀 Live Preview
-* Live URL: [View Live Demo](https://your-vercel-link.vercel.app) *(Tomar Vercel live link ekhane diye dio)*
+* Live URL: https://vercel.com/zakariya-hussains-projects/react-product-dashboard
 
 ## ✨ Features
 * Search products by name
