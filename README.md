@@ -2,6 +2,8 @@
 
 I recently completed a small independent React project — Product Dashboard. After completing my 14 Days of React Practice Challenge, I wanted to build something on my own to practice the React concepts I had reviewed.
 
+I also used AI assistance for CSS styling and UI design ideas.
+
 ## 🚀 Live Preview
 * Live URL: https://react-product-dashboard-jet.vercel.app/
 
